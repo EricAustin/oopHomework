@@ -26,15 +26,13 @@ let ericsDrill = new ElectricDrill("Milwaukee", "Red", 430, 75);
 
 console.log(sabrinasDrill);
 console.log(ericsDrill);
-
-
-
+console.log('==============================================');
 console.log("Sabrina's maxVoltage", maxVoltage);
 console.log("Sabrina's currentCharge", sabrinasDrill.currentCharge);
 console.log("Sabrina's additional charge", 200);
 sabrinasDrill.charge(200);
 console.log("Sabrina's current charge", sabrinasDrill.currentCharge);
-
+console.log('==============================================');
 console.log("Eric's maxVoltage", maxVoltage);
 console.log("Eric's currentCharge", ericsDrill.currentCharge);
 console.log("Eric's additional charge", 600);
